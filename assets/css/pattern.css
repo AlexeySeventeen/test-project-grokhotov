@@ -1,0 +1,42 @@
+.text-heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.03px;
+}
+.text-bigger {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.text-big {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.2px;
+}
+.text-basic {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.text-small {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.4px;
+}
+.black-text {
+  color: #1f2432;
+}
+.gray-text {
+  color: #797b86;
+}
+.blue-action {
+  color: #0069b4;
+}
+.blue-background {
+  background: #f6f8fa;
+}
