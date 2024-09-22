@@ -1,12 +1,10 @@
 <template>
   <div style="margin-bottom: 100px">
-    <FooterText @next="(value) => (active = value)" />
-    <FooterSlider :active="active" />
+    <FooterText @changeSlide="changeSlide++" />
+    <FooterSlider :changeSlide="changeSlide" />
   </div>
 </template>
 
 <script setup>
-const active = ref(1);
+const changeSlide = ref(0);
 </script>
-
-<style scoped></style>

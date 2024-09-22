@@ -4,15 +4,15 @@
     <Main />
     <Footer />
   </div>
-  
 </template>
 
 <script setup lang="ts">
 import {useStore} from '~/store/store';
+import axios from 'axios';
+import {useAsyncData} from 'nuxt/app';
 
 const store = useStore();
-const {getItems} = store;
-onMounted(() => getItems());
+await useAsyncData('items', () => store.getItems().then(() => true));
 </script>
 
 <style>

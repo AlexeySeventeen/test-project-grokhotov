@@ -6,6 +6,7 @@ export const useStore = defineStore('store', {
     items: [],
     cartItems: [],
     installation: false,
+    currentSlide: 1,
   }),
 
   actions: {
